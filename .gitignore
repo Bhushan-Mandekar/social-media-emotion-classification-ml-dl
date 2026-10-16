@@ -1,0 +1,112 @@
+
+# =====================================================
+# CAPSTONE-3: SOCIAL MEDIA USAGE AND EMOTIONAL WELL-BEING
+# Developed by: Bhushan Mandekar
+# =====================================================
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+myenv/
+ENV/
+conda-env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+.streamlit/secrets.toml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# VS Code local settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# IDE files
+.idea/
+*.swp
+*.swo
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing and coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*.pyc
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local datasets
+data/raw/
+data/private/
+train.csv
+val.csv
+test.csv
+train(2).csv
+val(2).csv
+test(2).csv
+
+# Large model artifacts
+*.h5
+*.hdf5
+*.keras
+*.pkl
+*.pickle
+*.joblib
+
+# TensorFlow files
+events.out.tfevents.*
+logs/
+tensorboard/
+
+# Local experiment files
+mlruns/
+wandb/
+
+# Temporary predictions
+predictions_temp.csv
+
+# Streamlit cache
+.streamlit/cache/
+
+# Keep project documentation and source code
+!README.md
+!requirements.txt
+!app.py
+
+# Allow required deployment artifacts
+!outputs/preprocessor.pkl
+!outputs/emotion_label_encoder.pkl
+!outputs/final_ml_model.pkl
+!outputs/final_dl_model.keras
