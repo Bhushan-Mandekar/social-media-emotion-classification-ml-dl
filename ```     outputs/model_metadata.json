@@ -1,0 +1,27 @@
+{
+    "project": "Social Media Usage and Emotional Well-Being",
+    "model_type": "ML",
+    "selected_model": "Extra Trees",
+    "features": [
+        "Age",
+        "Gender",
+        "Platform",
+        "Daily_Usage_Time (minutes)",
+        "Posts_Per_Day",
+        "Likes_Received_Per_Day",
+        "Comments_Received_Per_Day",
+        "Messages_Sent_Per_Day"
+    ],
+    "target": "Dominant_Emotion",
+    "classes": [
+        "Anger",
+        "Anxiety",
+        "Boredom",
+        "Happiness",
+        "Neutral",
+        "Sadness"
+    ],
+    "test_accuracy": 0.65,
+    "test_macro_f1": 0.6168546365914788,
+    "test_weighted_f1": 0.6423088972431078
+}
